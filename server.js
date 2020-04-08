@@ -1,6 +1,7 @@
 // dependencies
 const express = require('express');
 const htmlRoutes = require('./routes/htmlRoutes');
+const connection = require('./db');
 
 //instantiate express
 const app = express();
