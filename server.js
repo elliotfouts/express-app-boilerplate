@@ -1,6 +1,6 @@
 // dependencies
 const express = require('express');
-const express = require('express-handlebars');
+const expressHandlebars = require('express-handlebars');
 const htmlRoutes = require('./routes/htmlRoutes');
 const connection = require('./db');
 
